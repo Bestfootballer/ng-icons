@@ -343,6 +343,17 @@ export const iconsets: Iconset[] = [
     },
   },
   {
+    glob: '**/*.svg',
+    gitRepo: 'https://github.com/Bestfootballer/iconsax.git',
+    gitRef: 'main',
+    gitPath: 'static/Iconsax/Svg/All/linear',
+    output: 'packages/iconsax/linear/src/index.ts',
+    getIconName: (name: string) => `sax${getIconSaxName(name)}Linear`,
+    svg: {
+      removeColor: true,
+    },
+  },
+  {
     glob: 'node_modules/tdesign-icons-svg/src/**/*.svg',
     output: 'packages/tdesign-icons/src/index.ts',
     getIconName: (name: string) => `tdesign${name}`,

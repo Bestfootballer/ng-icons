@@ -64,6 +64,7 @@
       "@ng-icons/iconsax/bold": ["packages/iconsax/bold/src/index.ts"],
       "@ng-icons/iconsax/bulk": ["packages/iconsax/bulk/src/index.ts"],
       "@ng-icons/iconsax/outline": ["packages/iconsax/outline/src/index.ts"],
+      "@ng-icons/iconsax/linear": ["packages/iconsax/linear/src/index.ts"],
       "@ng-icons/ionicons": ["packages/ionicons/src/index.ts"],
       "@ng-icons/jam-icons": ["packages/jam-icons/src/index.ts"],
       "@ng-icons/lets-icons": ["packages/lets-icons/src/index.ts"],
